@@ -21,15 +21,22 @@
 // $red:     #ED1C24 ;
 // $primary: $red;
 
+$equinix-red : #ED1C24 ;
+$blue: #009AFF;
+$blue-deep-sky: #00B7FF;
+$blue-science: #0066CC;
 
-// $equinix-red : #ED1C24 ;
-// $blue: #009AFF;
-// $blue-deep-sky: #00B7FF;
-// $blue-science: #0066CC;
-
-// $primary: $blue;
+$primary: $blue;
 
 
-// $theme-colors: (
-//   "eq-red": $equinix-red
-// );
+$theme-colors: (
+  "eq-red": $equinix-red
+);
+
+
+
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$headings-font-family:  'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
