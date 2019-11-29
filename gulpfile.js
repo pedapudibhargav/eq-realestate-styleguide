@@ -85,6 +85,7 @@ gulp.task('serve', function() {
 gulp.task('watch', function() {
   gulp.watch('./assets/scss/**/*.scss', ['sass']);
   gulp.watch('./html/**/*.html').on('change', browserSync.reload);
+  gulp.watch('./demo/**/*.html').on('change', browserSync.reload);
   gulp.watch('./starter/**/*.html').on('change', browserSync.reload);
   gulp.watch('./documentation/**/*.html').on('change', browserSync.reload);
 });
