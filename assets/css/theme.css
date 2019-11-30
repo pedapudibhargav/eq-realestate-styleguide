@@ -23156,6 +23156,12 @@ label.btn {
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
+@media (min-width: 768px) {
+  .height-md-40vh {
+    height: 40vh;
+  }
+}
+
 .u-hero-v1__main::after {
   background-color: rgba(0, 0, 0, 0);
 }
