@@ -23162,6 +23162,45 @@ label.btn {
   }
 }
 
+.hs-sidebar__nav {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.hs-sidebar__item {
+  font-size: .875rem;
+}
+
+.hs-sidebar__link {
+  color: #495057;
+  display: block;
+  border-left: 4px solid transparent;
+  padding: .3rem  1rem .5rem 1.125rem;
+}
+
+.hs-sidebar__link.active {
+  color: #ED1C24;
+  border-color: #ED1C24;
+  padding-top: .5rem;
+}
+
+.hs-sidebar__link.active:hover {
+  color: #ED1C24;
+}
+
+.hs-sidebar__link:hover {
+  text-decoration: none;
+}
+
+.hs-sidebar__heading {
+  font-size: .8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: calc(1.125rem + 4px);
+  padding-right: 1rem;
+}
+
 .u-hero-v1__main::after {
   background-color: rgba(0, 0, 0, 0);
 }
