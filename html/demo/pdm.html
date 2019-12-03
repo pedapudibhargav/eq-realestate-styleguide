@@ -3,14 +3,14 @@
 
 <head>
     <!-- Title -->
-    <title>Classic Business | Front - Responsive Website Template</title>
+    <title>Equinix | PDM</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="shortcut icon" href="https://www.equinix.com/application/dist/img/global/favicon.ico">
 
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -29,8 +29,7 @@
 
 <body>
     <!-- ========== HEADER ========== -->
-    <header id="header"
-        class="u-header u-header--bg-transparent u-header--white-nav-links-md u-header--sub-menu-dark-bg-md u-header--abs-top"
+    <header class="u-header u-header--white-nav-links-md u-header--sub-menu-dark-bg-md u-header--sticky-top"
         data-header-fix-moment="500" data-header-fix-effect="slide">
         <div class="u-header__section bg-dark">
             <div id="logoAndNav" class="container">
@@ -57,7 +56,7 @@
 
                     <!-- Navigation -->
                     <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-                        <ul class="navbar-nav u-header__navbar-nav bg-dark">
+                        <ul class="navbar-nav u-header__navbar-nav">
 
                             <!-- Approach -->
                             <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover"
@@ -67,8 +66,7 @@
                                     aria-labelledby="blogSubMenu">Approach</a>
 
                                 <!-- Approach - Submenu -->
-                                <ul id="blogSubMenu"
-                                    class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer bg-dark"
+                                <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
                                     aria-labelledby="blogMegaMenu" style="min-width: 230px;">
                                     <li><a class="nav-link u-header__sub-menu-nav-link"
                                             href="../blog/card-style.html">Best Practices</a>
@@ -83,7 +81,6 @@
                                             href="../blog/single-article.html">Measurement</a>
                                     </li>
                                 </ul>
-                                
                                 <!-- End Submenu -->
                             </li>
                             <!-- End Approach -->
@@ -97,18 +94,19 @@
                                     aria-labelledby="blogSubMenu">Project Delivery Model</a>
 
                                 <!-- Structure - Submenu -->
-                                <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
-                                    aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                                    <li><a class="nav-link u-header__sub-menu-nav-link"
-                                            href="../blog/card-style.html">Inception</a>
+                                <ul id="blogSubMenu"
+                                    class="js-scroll-nav hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                                    aria-labelledby="blogMegaMenu">
+                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#content">Introduction</a>
+                                    </li>
+                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#inception">Inception</a>
                                     </li>
                                     <li><a class="nav-link u-header__sub-menu-nav-link"
-                                            href="../blog/listing.html">Construction</a></li>
-                                    <li><a class="nav-link u-header__sub-menu-nav-link"
-                                            href="../blog/blog-profile.html">Testing &
+                                            href="#construction">Construction</a></li>
+                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#testing">Testing &
                                             Acceptance</a></li>
                                     <li><a class="nav-link u-header__sub-menu-nav-link"
-                                            href="../blog/single-article.html">Transition</a>
+                                            href="#transition">Transition</a>
                                     </li>
                                 </ul>
                                 <!-- End Submenu -->
@@ -135,677 +133,706 @@
     <!-- ========== END HEADER ========== -->
 
     <!-- ========== MAIN ========== -->
-    <main id="content" class="pt-11" role="main">
-        <!-- Body Section -->
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Sidebar -->
-                <nav class="col-md-3 col-xl-2 bg-light hs-sidebar navbar-expand-md">
-                    <div class="d-flex d-md-none justify-content-between">
-                        <!-- Sidebar Search -->
-                        <form class="col form-inline input-group-sm">
-                            <ul id="ui-id-2" tabindex="0"
-                                class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front"
-                                style="display: none;"></ul>
-                        </form>
-                        <!-- End Sidebar Search -->
-
-                        <!-- Responsive Toggle Button -->
-                        <button class="btn btn-link pl-0" type="button" data-toggle="collapse"
-                            data-target="#sidebar-nav" aria-controls="sidebar-nav" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30"
-                                focusable="false">
-                                <path stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
-                            </svg>
-                        </button>
-                        <!-- End Responsive Toggle Button -->
-                    </div>
-
-                    <!-- Sidebar Nav -->
-                    <div class="collapse navbar-collapse pt-sm-4" id="sidebar-nav">
-                        <div id="sidebarNav" class="js-scrollbar hs-sidebar-sticky mCustomScrollbar _mCS_1 mCS-autoHide"
-                            style="overflow: visible;">
-                            <div id="mCSB_1" class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside"
-                                tabindex="0" style="max-height: none;">
-                                <div id="mCSB_1_container" class="js-scroll-nav mCSB_container"
-                                    style="position: relative; top: 0px; left: 0px;" dir="ltr">
-                                    <h5 class="hs-sidebar__heading">Project Delivery Model</h5>
-                                    <ul class=" hs-sidebar__nav">
-                                            <li class="hs-sidebar__item"><a class="hs-sidebar__link" href="#inception">Inception</a></li>
-                                        <li class="hs-sidebar__item"><a class="hs-sidebar__link"
-                                                href="#contruction">Construction</a></li>
-                                        <li class="hs-sidebar__item"><a class="hs-sidebar__link" href="#tAndA">Testing &
-                                                Acceptance</a></li>
-                                        <li class="hs-sidebar__item"><a class="hs-sidebar__link"
-                                                href="#transition">Transition</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div id="mCSB_1_scrollbar_vertical"
-                                class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal-dark mCSB_scrollTools_vertical"
-                                style="display: block;">
-                                <div class="mCSB_draggerContainer">
-                                    <div id="mCSB_1_dragger_vertical" class="mCSB_dragger"
-                                        style="position: absolute; min-height: 50px; display: block; height: 56px; max-height: 412px; top: 0px;">
-                                        <div class="mCSB_dragger_bar" style="line-height: 50px;"></div>
-                                    </div>
-                                    <div class="mCSB_draggerRail"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Sidebar Nav -->
-                </nav>
-                <!-- End Sidebar -->
-
-                <div class="col-md-9 col-xl-10 p-7 ml-md-auto">
-                    <div class="text-center mx-auto mb-6">
-                        <h2 class="font-weight-semi-bold">Structure</h2>
-                        <p>The PDM is sparated into four major stages</p>
-                    </div>
-
-                    <div class="card-group card-group-md-break">
-                        <div class="card">
-                            <img class="card-img-top w-35 mt-3" src="https://lh3.googleusercontent.com/p912SNtTsgcuBdMjF02ktrJ9Sfad4CxPXvs1F-7KdjqdmCEnrvGVWgpbzrbL9CVbj-IJk6oojT5EkLIcmMh8Ckz2e7rXRpPwOZ1wlYj7i4C-T0PgPRt9PiCY1ID3fqXVs7QICT10jEnd36J76YU4PMEKxDDR3aezSu3S1_RdbC_0ZwCirD92jXV36AnNUMT2_SyJ80NByEIoGegV1Ru9KmFSdpPPrGtlmWdCpNuoAcjFvo-32tnEP9fj_qjfygey7E1K-FOuhHtu_B8M7TQjAKX57LQLZT4YD8C_ewLMFtQFIxdxWPXOOUdatw9tMz6Jz7p4iqpFM-Tf7fnQvbrxg9fDdO2wbbSvcvfeSxuA70fRTri8RifUf-JtOAHAe-oj7YTLPpeUzEjN6rP24Iy_HUp5-F1g4pASonXMk1o6Wie_PNqmlgt8VmJ1Fc1HIRkXfbnr3_RTyJhHbgazc_RcrMa7eS8C9lXqNCpP4PKU0MxwFi3mQEGlmaXt_cx9hVU8OSDHcX40tYfTctZCLPcRRKVTXRwRxgTN_nmLgtk7IFOVjU_UNplb6grzhYhYZ9ctTtMmouJZ4uX9E5qBv7J4q-6ZVPSi-wuxL7k_K3On-yfkCblKWXyuQKCZOJ3KnPyVGIOE9-xPTuHL53yQOQORTmILBAiZ9ozq3K33zEvnPlz_SVolnmV5tg=w143-h141-no" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>
-                                    <small class="text-muted">Stage 1</small>
-                                </h3>
-                                <h3 class="card-title">Inception</h3>
-                                <p class="card-text">The beginning of the project cycle which includes gaining
-                                    stakeholder approval and project kick-off.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                                <img class="card-img-top w-35 mt-3" src="https://lh3.googleusercontent.com/4XVu9xgVnflw1virjA2U3N6ZkmADe_HVKVPfgNrDcltK1iF0Zh1Zkc-yZ2GphPXO-jwlb43QGgw2saRIeEXI8otfIKmKgokiWw6BSIksHp-X39qfUC54RSsG73sw7Qdcqfoic2_zAj4jR9zRzlwgyuHOwoOaurNGECWeKNlxkU9jCnkZyWjDmp_ze6ZJAa9OtxuROUeUnwAztSgE07-0tLRvkG8fTXuxaj4ONwlWDVw1TDtF5atXJzxY-oDTnWqmM4JZGdrD-rWgQR510mTUM8PVhMx6r3OicBSQK76o2vPtXzUmRIu_Bt1czo1DpGY5lWJAx2Xzem3L5fW_Q4LcK7Nw_-XON--8EidH7j3g5Oa5QNU-0zBji_HqV3Z4CeOPsU18sgGqK2Eag8c5Dfh7_KMwHsOQrEQ4xRityJ1iqjOGdzv0wIZhOS_aIAm_HqBdCSOYxXby6h3W-BqXBDAqH40L0BJj2Y9TQ_QaL6LHttKrIbRVKUUKC6i2mpAvA6rmonlDI4kO6bo6rGuHv5eUmY7yVGXcpeNWcTMQwngBV1J-OsUP88JEnfLUnrk9rCEQPDEkGC0GD9VlO9E1ai7KRT865ar3l-xuK1LqR1Rh4g0zXh85D9vWmLZS3Y15cMbDXe41ZdlNf33tsJn4ec4kikeDaMgVNeW1PPNi980MDtk2yGT-xM_oCg=s143-no" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>
-                                    <small class="text-muted">Stage 2</small>
-                                </h3>
-                                <h3 class="card-title text-primary">Construction</h3>
-                                <p class="card-text">Completing the design process including municipality approvals,
-                                    purchasing all labor and materials, putting all the pieces together whilst ensuring
-                                    safety.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                                <img class="card-img-top w-35 mt-3" src="https://lh3.googleusercontent.com/vqN0Tkpt4H0Y-uJjYjKEyhw0V9SpIdNiOAmqNE7HqSZISzgd7N7nagc31E-4lNU2ndc22wz0Sxwy84-121dKVOCsLF6_TqASEtSrOS9VHnm_O5p6JJU6d5lcaWIU3_8a4FJp6_iDVVnRjIe45oZRhycAdzlRXiGh1IaGVN6ilRJIDOZErceg04mCs9H74U4xBYSWq_xmSwEx9FTJOb-VKcfrY08cNHMdf6DDbY8sow7QOugyycKUtMK-g4U83NLXknlvL0yO2L1o3_Ttbh5w73DPhe-ctG-03MTjdMdsAGPfDC9EVru1tJxUCjILGkvWwYciAvQnC2f3xIwx-ykcoxl337vvdrDvRSk1iKAfe6akPFug431C0X2aqiays2r4fxZyOYhe8HdsxaqHgHi8UEINFWF7xWOyGUftvgkd5NuTaIF5XwbtP31ngaCqbPU9guPBOqrG50H9cse0gjZbK7a0kAU-B3AavBnqqGfLs8d3zlBRVS6vnqdkgaQiCXgaV9uQJqG9wQuLIwhPaXpQ6c6qGIXQk7ddoqTF5p0htZmfqBmKvPOCYvNFqENH5gRbkwOffv6y85YuKcM5cbc97MeNggHudBZa7b4ECfJHxGx1d_2nfmHANxLPZOqsqmKyszPr3CkhjdbypESxcpWQ0I-j0w2H6Wd8HZZj0t951g1Aldp4HYrABw=w143-h141-no" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>
-                                    <small class="text-muted">Stage 3</small>
-                                </h3>
-                                <h3 class="card-title text-eq-blue">Testing & Acceptance</h3>
-                                <p class="card-text">Following the right testing regime to ensure the facility functions
-                                    as designed.</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                                <img class="card-img-top w-35 mt-3" src="https://lh3.googleusercontent.com/yskRhnffRjXqBmnuw69ax1ALCOQ13pVA_j-F87CjX0AlUwInqwIuR3IZJhfRXSCzD10-m0g0PmWGQh6Y11E93joviM4KqWU41CS2mpud8QxYLlMiC0MZQwa8OnPAGbVKDfjkTGfmcAgyaUth6UWqW_Wnq9g5Omce1b8wv_9Rwr1XWzqUQwGcRVCAjOndP_QvhuJZMQoX-WlLTYG4g2LhDEczy7Tz0VghiG1wfzwuQfdvuT6T56cE-lrcGg8902GVLd4l4rm_PLCCGn530Ajmn6hESe9iIIRHCS97Zeo7YdJ42rheJDRPV5CG0WHYxuJVaeFlfxxiDpjXU_M89LBrNBj1CL14viWe3vTPvQ3isTIVLflQiVSOtBIWv55UAyWshQoCcCYhlAntwFb58D5SkqlYpFMYc0sGC1mL1QvRx_uk5HIHI0CIVWvedr0kHvlPGOgG4YYXhTgg6uP6wfrz2XALNfDLHmR53ooWhG_6AIVH7wSGS4yFSPeswL9uiR4ANVQEsqZRylL7yTCTFc8Vm3igNnw_EVRSxx1WurDv5vh9FCg0JUiiTKf5VARHWWfAP5EOHCNyo5VWqtWy-MP23YW8C7il_ywyO7GAcxE_lUYdRpaNEVl1GmwB2m19mAGIop7t7zorTQB7ARRb5J1ekoIm56yWY7SfBEBZwXCr_Lqx1X48ThXv2w=s143-no" alt="Card image cap">
-                            <div class="card-body">
-                                <h3>
-                                    <small class="text-muted">Stage 4</small>
-                                </h3>
-                                <h3 class="card-title text-eq-blue-science">Transition</h3>
-                                <p class="card-text">Accommodating the customer, ensuring the hand-off to site
-                                    operations is accurate and complete and that the concerns of the operations staff
-                                    have been addressed.</p>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <hr class="mt-10 mb-8">
-                    <h3 class="font-weight-bold" id="inception">Inception</h3>
-                    <table class="table table-striped ">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">PHASE</th>
-                                <th scope="col">GATES</th>
-                                <th scope="col">DELIVERABLES/REQUIREMENTS</th>
-                                <th scope="col">PHASE-SPECIFIC TOOLS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-
-                    <hr class="mt-10 mb-8">
-                    <h3 class="font-weight-bold text-primary" id="construction">Construction</h3>
-                    <table class="table table-striped ">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">PHASE</th>
-                                <th scope="col">GATES</th>
-                                <th scope="col">DELIVERABLES/REQUIREMENTS</th>
-                                <th scope="col">PHASE-SPECIFIC TOOLS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-
-                    <hr class="mt-10 mb-8">
-                    <h3 class="font-weight-bold text-eq-blue" id="testing">Testing and Acceptance</h3>
-                    <table class="table table-striped ">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">PHASE</th>
-                                <th scope="col">GATES</th>
-                                <th scope="col">DELIVERABLES/REQUIREMENTS</th>
-                                <th scope="col">PHASE-SPECIFIC TOOLS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-
-
-
-
-
-                    <hr class="mt-10 mb-8">
-                    <h3 class="font-weight-bold text-eq-blue-science" id="transition">Transition</h3>
-                    <table class="table table-striped ">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th scope="col">PHASE</th>
-                                <th scope="col">GATES</th>
-                                <th scope="col">DELIVERABLES/REQUIREMENTS</th>
-                                <th scope="col">PHASE-SPECIFIC TOOLS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Approval (0)</th>
-                                <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
-                                <td>
-                                    <ul>
-                                        <li>Email summary of resources required and what outputs will be delivered</li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
-                                <td>Design Package Sign Off</td>
-                                <td>
-                                    <ul>
-                                        <li> Change Management </li>
-                                        <li>Lessons Learned Review</li>
-                                        <li>Design Package
-                                            <ul>
-                                                <li>H,S & E and Residual Risks</li>
-                                                <li>Concept BoD**</li>
-                                                <li>Drawings</li>
-                                                <li>Specification</li>
-                                            </ul>
-                                        </li>
-                                </td>
-                                </li>
-                                </ul>
-                                <td>
-                                    <ul>
-                                        <li>
-                                            Strategic Brief
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <main id="content" class="pt-10" role="main">
+        <div class="js-slick-carousel u-slick"
+            data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
+            data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
+            data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+            <div class="js-slide bg-img-hero-center"
+                style="background-image: url(https://lh3.googleusercontent.com/zF_6vwOaE-O37HZfS0UWQo2cdzn4lb9FyT-UFbfH9AdqhN-FCzaDuhiNV8vo4G1ul_Bgcg6oFx-lGxr_Y28xLOo0LFh_2o7MiS3YP9D5PAc6YhI6jBfoKg1ozTHG6e-vW_QYSe2t6fY5PBNLxrnHsTxtzDHwLd9ohxNQrSe1L41aDEbutc_oCLvyHDaRYrFFXAENt3mbRS1Qnt5l68cizIK-tLvTAZyc_vDVvZgS_0seFAFKy1OxU3BqTY-qG4HvUGN1wVE8jxZIEAgBwOEWZpMIVIHD5fi86ABasIALXDnFTvmG6e-48DakhP9CaGebEFBLT9wR5wOBBVN0L216DDWt-I-_yFy4u5xQAIP7NqlBwvvpQrWdN2cBZKsxV11LhlWBJ8y1GfuYHlymSSyF-LnvZsLKL_CDv22NChJLubSdCUDY3stjFMXu3eGAp2L-3bSzHGq7-lmStFJP3cRMzpCIGgMY9C2HJWozYxIfiblqnptAzVr-SAnksbW9B5XmAEZ7t1kwQ5k3dti3K6TwX_AEX7nJlACFxTn2-hlz-6UlsMSm4EwClfR0KZXWd7RZBuxWf86iIdfZ5dvPYVSfO62GAFJoLoEVzujRnVUimc8w1UJVzxLikjjSaGGj5ouAPxBKvFbY2HRv5g5AwGF2aGt5tIifa12i_K8eh2VK4XZKVL-rGOA-Bw=w2548-h1832-no);">
+                <div class="space-5">
                 </div>
             </div>
         </div>
+        <!-- Body Section -->
+        <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="text-center mx-md-auto mb-9 mt-10">
+                    <small class="text-secondary text-uppercase font-weight-medium mb-2">The PDM is sparated into four
+                        major stages</small>
+                    <h2 class="h3 font-weight-medium">Structure</h2>
+                </div>
+            </div>
+
+            <!-- End Title -->
+            <div class="row justify-content-lg-center">
+                <div class="col-sm-6 mb-7">
+                    <div class="media pr-lg-5">
+                        <figure class="ie-height-56 w-100 max-width-8 mr-4" style="">
+                            <img class="w-100"
+                                src="https://lh3.googleusercontent.com/p912SNtTsgcuBdMjF02ktrJ9Sfad4CxPXvs1F-7KdjqdmCEnrvGVWgpbzrbL9CVbj-IJk6oojT5EkLIcmMh8Ckz2e7rXRpPwOZ1wlYj7i4C-T0PgPRt9PiCY1ID3fqXVs7QICT10jEnd36J76YU4PMEKxDDR3aezSu3S1_RdbC_0ZwCirD92jXV36AnNUMT2_SyJ80NByEIoGegV1Ru9KmFSdpPPrGtlmWdCpNuoAcjFvo-32tnEP9fj_qjfygey7E1K-FOuhHtu_B8M7TQjAKX57LQLZT4YD8C_ewLMFtQFIxdxWPXOOUdatw9tMz6Jz7p4iqpFM-Tf7fnQvbrxg9fDdO2wbbSvcvfeSxuA70fRTri8RifUf-JtOAHAe-oj7YTLPpeUzEjN6rP24Iy_HUp5-F1g4pASonXMk1o6Wie_PNqmlgt8VmJ1Fc1HIRkXfbnr3_RTyJhHbgazc_RcrMa7eS8C9lXqNCpP4PKU0MxwFi3mQEGlmaXt_cx9hVU8OSDHcX40tYfTctZCLPcRRKVTXRwRxgTN_nmLgtk7IFOVjU_UNplb6grzhYhYZ9ctTtMmouJZ4uX9E5qBv7J4q-6ZVPSi-wuxL7k_K3On-yfkCblKWXyuQKCZOJ3KnPyVGIOE9-xPTuHL53yQOQORTmILBAiZ9ozq3K33zEvnPlz_SVolnmV5tg=w143-h141-no"
+                                alt="Card image cap">
+                        </figure>
+                        <div class="media-body">
+                            <small> Stage 1</small>
+                            <h5 class="text-primary">Inception</h5>
+                            <p class="mb-1">The beginning of the project cycle which includes gaining stakeholder
+                                approval and project kick-off.</p>
+                            <a class="font-size-1" href="#">Learn More <span
+                                    class="fas fa-angle-right align-middle ml-2"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-7">
+                    <div class="media pr-lg-5">
+                        <figure class="ie-height-56 w-100 max-width-8 mr-4" style="">
+                            <img class="w-100"
+                                src="https://lh3.googleusercontent.com/4XVu9xgVnflw1virjA2U3N6ZkmADe_HVKVPfgNrDcltK1iF0Zh1Zkc-yZ2GphPXO-jwlb43QGgw2saRIeEXI8otfIKmKgokiWw6BSIksHp-X39qfUC54RSsG73sw7Qdcqfoic2_zAj4jR9zRzlwgyuHOwoOaurNGECWeKNlxkU9jCnkZyWjDmp_ze6ZJAa9OtxuROUeUnwAztSgE07-0tLRvkG8fTXuxaj4ONwlWDVw1TDtF5atXJzxY-oDTnWqmM4JZGdrD-rWgQR510mTUM8PVhMx6r3OicBSQK76o2vPtXzUmRIu_Bt1czo1DpGY5lWJAx2Xzem3L5fW_Q4LcK7Nw_-XON--8EidH7j3g5Oa5QNU-0zBji_HqV3Z4CeOPsU18sgGqK2Eag8c5Dfh7_KMwHsOQrEQ4xRityJ1iqjOGdzv0wIZhOS_aIAm_HqBdCSOYxXby6h3W-BqXBDAqH40L0BJj2Y9TQ_QaL6LHttKrIbRVKUUKC6i2mpAvA6rmonlDI4kO6bo6rGuHv5eUmY7yVGXcpeNWcTMQwngBV1J-OsUP88JEnfLUnrk9rCEQPDEkGC0GD9VlO9E1ai7KRT865ar3l-xuK1LqR1Rh4g0zXh85D9vWmLZS3Y15cMbDXe41ZdlNf33tsJn4ec4kikeDaMgVNeW1PPNi980MDtk2yGT-xM_oCg=s143-no"
+                                alt="Card image cap">
+                        </figure>
+                        <div class="media-body">
+                            <small> Stage 2</small>
+                            <h5 class="text-primary">Construction</h5>
+                            <p class="mb-1">Completing the design process including municipality approvals,
+                                purchasing all labor and materials, putting all the pieces together whilst ensuring
+                                safety.</p>
+                            <a class="font-size-1" href="#">Learn More <span
+                                    class="fas fa-angle-right align-middle ml-2"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-sm-6 mb-7">
+                    <div class="media pr-lg-5">
+                        <figure class="ie-height-56 w-100 max-width-8 mr-4" style="">
+                            <img class="w-100"
+                                src="https://lh3.googleusercontent.com/vqN0Tkpt4H0Y-uJjYjKEyhw0V9SpIdNiOAmqNE7HqSZISzgd7N7nagc31E-4lNU2ndc22wz0Sxwy84-121dKVOCsLF6_TqASEtSrOS9VHnm_O5p6JJU6d5lcaWIU3_8a4FJp6_iDVVnRjIe45oZRhycAdzlRXiGh1IaGVN6ilRJIDOZErceg04mCs9H74U4xBYSWq_xmSwEx9FTJOb-VKcfrY08cNHMdf6DDbY8sow7QOugyycKUtMK-g4U83NLXknlvL0yO2L1o3_Ttbh5w73DPhe-ctG-03MTjdMdsAGPfDC9EVru1tJxUCjILGkvWwYciAvQnC2f3xIwx-ykcoxl337vvdrDvRSk1iKAfe6akPFug431C0X2aqiays2r4fxZyOYhe8HdsxaqHgHi8UEINFWF7xWOyGUftvgkd5NuTaIF5XwbtP31ngaCqbPU9guPBOqrG50H9cse0gjZbK7a0kAU-B3AavBnqqGfLs8d3zlBRVS6vnqdkgaQiCXgaV9uQJqG9wQuLIwhPaXpQ6c6qGIXQk7ddoqTF5p0htZmfqBmKvPOCYvNFqENH5gRbkwOffv6y85YuKcM5cbc97MeNggHudBZa7b4ECfJHxGx1d_2nfmHANxLPZOqsqmKyszPr3CkhjdbypESxcpWQ0I-j0w2H6Wd8HZZj0t951g1Aldp4HYrABw=w143-h141-no"
+                                alt="Card image cap">
+                        </figure>
+                        <div class="media-body">
+                            <small> Stage 3</small>
+                            <h5 class="text-primary">Testing & Acceptance</h5>
+                            <p class="mb-1">Following the right testing regime to ensure the facility functions
+                                as designed.</p>
+                            <a class="font-size-1" href="#">Learn More <span
+                                    class="fas fa-angle-right align-middle ml-2"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 mb-7">
+                    <div class="media pr-lg-5">
+                        <figure class="ie-height-56 w-100 max-width-8 mr-4" style="">
+                            <img class="w-100"
+                                src="https://lh3.googleusercontent.com/yskRhnffRjXqBmnuw69ax1ALCOQ13pVA_j-F87CjX0AlUwInqwIuR3IZJhfRXSCzD10-m0g0PmWGQh6Y11E93joviM4KqWU41CS2mpud8QxYLlMiC0MZQwa8OnPAGbVKDfjkTGfmcAgyaUth6UWqW_Wnq9g5Omce1b8wv_9Rwr1XWzqUQwGcRVCAjOndP_QvhuJZMQoX-WlLTYG4g2LhDEczy7Tz0VghiG1wfzwuQfdvuT6T56cE-lrcGg8902GVLd4l4rm_PLCCGn530Ajmn6hESe9iIIRHCS97Zeo7YdJ42rheJDRPV5CG0WHYxuJVaeFlfxxiDpjXU_M89LBrNBj1CL14viWe3vTPvQ3isTIVLflQiVSOtBIWv55UAyWshQoCcCYhlAntwFb58D5SkqlYpFMYc0sGC1mL1QvRx_uk5HIHI0CIVWvedr0kHvlPGOgG4YYXhTgg6uP6wfrz2XALNfDLHmR53ooWhG_6AIVH7wSGS4yFSPeswL9uiR4ANVQEsqZRylL7yTCTFc8Vm3igNnw_EVRSxx1WurDv5vh9FCg0JUiiTKf5VARHWWfAP5EOHCNyo5VWqtWy-MP23YW8C7il_ywyO7GAcxE_lUYdRpaNEVl1GmwB2m19mAGIop7t7zorTQB7ARRb5J1ekoIm56yWY7SfBEBZwXCr_Lqx1X48ThXv2w=s143-no"
+                                alt="Card image cap">
+                        </figure>
+                        <div class="media-body">
+                            <small>Stage 4</small>
+                            <h5 class="text-primary">Transition</h5>
+                            <p class="mb-1">Accommodating the customer, ensuring the hand-off to site
+                                operations is accurate and complete and that the concerns of the operations staff
+                                have been addressed.</p>
+                            <a class="font-size-1" href="#">Learn More <span
+                                    class="fas fa-angle-right align-middle ml-2"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="inception" class="bg-light">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-11">
+                        <div class="text-center mb-8">
+                            <h2 class="text-primary">Stage 1 <span class="font-weight-semi-bold">Inception</span></h2>
+                            <p>The beginning of the project cycle which includes gaining stakeholder approval and
+                                project kick-off.
+                            </p>
+                        </div>
+                        <table class="table table-striped bg-white">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">PHASE</th>
+                                    <th scope="col">GATES</th>
+                                    <th scope="col">DELIVERABLES/REQUIREMENTS</th>
+                                    <th scope="col">PHASE-SPECIFIC TOOLS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="construction">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-11">
+                        <div class="text-center mb-8">
+                            <h2 class="text-primary">Stage 2 <span class="font-weight-semi-bold">Construction</span>
+                            </h2>
+                            <p>The beginning of the project cycle which includes gaining stakeholder approval and
+                                project kick-off.
+                            </p>
+                        </div>
+                        <table class="table table-striped ">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">PHASE</th>
+                                    <th scope="col">GATES</th>
+                                    <th scope="col">DELIVERABLES/REQUIREMENTS</th>
+                                    <th scope="col">PHASE-SPECIFIC TOOLS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="testing" class="bg-light">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-11">
+                        <div class="text-center mb-8">
+                            <h2 class="text-primary">Stage 3 <span class="font-weight-semi-bold">Testing &
+                                    Acceptance</span></h2>
+                            <p>The beginning of the project cycle which includes gaining stakeholder approval and
+                                project kick-off.
+                            </p>
+                        </div>
+                        <table class="table table-striped bg-white">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">PHASE</th>
+                                    <th scope="col">GATES</th>
+                                    <th scope="col">DELIVERABLES/REQUIREMENTS</th>
+                                    <th scope="col">PHASE-SPECIFIC TOOLS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="transition">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-11">
+                        <div class="text-center mb-8">
+                            <h2 class="text-primary">Stage 4 <span class="font-weight-semi-bold">Transition</span>
+                            </h2>
+                            <p>Accommodating the customer, ensuring the hand-off to site operations is accurate and
+                                complete and that the concerns of the operations staff have been addressed.
+                            </p>
+                        </div>
+                        <table class="table table-striped ">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col">PHASE</th>
+                                    <th scope="col">GATES</th>
+                                    <th scope="col">DELIVERABLES/REQUIREMENTS</th>
+                                    <th scope="col">PHASE-SPECIFIC TOOLS</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Approval (0)</th>
+                                    <td>GDC SVP/Corp Dev Approval (Minor Seed Funding)</td>
+                                    <td>
+                                        <ul>
+                                            <li>Email summary of resources required and what outputs will be delivered
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Concept Design/RIBA Stage 3 Generic</th>
+                                    <td>Design Package Sign Off</td>
+                                    <td>
+                                        <ul>
+                                            <li> Change Management </li>
+                                            <li>Lessons Learned Review</li>
+                                            <li>Design Package
+                                                <ul>
+                                                    <li>H,S & E and Residual Risks</li>
+                                                    <li>Concept BoD**</li>
+                                                    <li>Drawings</li>
+                                                    <li>Specification</li>
+                                                </ul>
+                                            </li>
+                                    </td>
+                                    </li>
+                                    </ul>
+                                    <td>
+                                        <ul>
+                                            <li>
+                                                Strategic Brief
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- End Body Section -->
     </main>
     <!-- ========== END MAIN ========== -->
@@ -958,6 +985,15 @@
     <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
     <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
     <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+
+    <!-- JS Implementing Plugins -->
+    <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+    <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="../../assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
     <!-- JS Implementing Plugins -->
     <script src="../../dist/assets/js/theme.min.js"></script>
