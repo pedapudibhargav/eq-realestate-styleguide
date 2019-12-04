@@ -29,8 +29,7 @@
 
 <body>
   <!-- ========== HEADER ========== -->
-  <header id="header"
-    class="u-header u-header--bg-transparent u-header--white-nav-links-md u-header--sub-menu-dark-bg-md u-header--abs-top"
+  <header class="u-header u-header--white-nav-links-md u-header--sub-menu-dark-bg-md u-header--sticky-top"
     data-header-fix-moment="500" data-header-fix-effect="slide">
     <div class="u-header__section bg-dark">
       <div id="logoAndNav" class="container">
@@ -60,24 +59,10 @@
             <ul class="navbar-nav u-header__navbar-nav">
 
               <!-- Approach -->
-              <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp"
+              <li class="nav-item hs-has-sub-menu u-header__nav-item" data-animation-in="slideInUp"
                 data-animation-out="fadeOut">
-                <a id="blogMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;"
-                  aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Approach</a>
-
-                <!-- Approach - Submenu -->
-                <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
-                  aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/card-style.html">Best Practices</a>
-                  </li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/listing.html">Standard
-                      Nomenclature</a></li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-profile.html">Principles and
-                      Tools</a></li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/single-article.html">Measurement</a>
-                  </li>
-                </ul>
-                <!-- End Submenu -->
+                <a id="blogMegaMenu" class="nav-link u-header__nav-link" href="./home.html#content" aria-haspopup="true"
+                  aria-expanded="false" aria-labelledby="blogSubMenu">Home</a>
               </li>
               <!-- End Approach -->
 
@@ -85,18 +70,20 @@
               <!-- Structure -->
               <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp"
                 data-animation-out="fadeOut">
-                <a id="blogMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;"
-                  aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Project Delivery  Model</a>
+                <a id="blogMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle " href="javascript:;"
+                  aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Project Delivery Model</a>
 
                 <!-- Structure - Submenu -->
-                <ul id="blogSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
-                  aria-labelledby="blogMegaMenu" style="min-width: 230px;">
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="./pdm.html">Introduction</a>
+                <ul class="js-scroll-nav hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                  aria-labelledby="blogMegaMenu" style="min-width:300px">
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="./pdm.html#content">Introduction</a>
                   </li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/listing.html">Construction</a></li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-profile.html">Testing &
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="./pdm.html#inception">Inception</a>
+                  </li>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="#construction">Construction</a></li>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="./pdm.html#testing">Testing &
                       Acceptance</a></li>
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/single-article.html">Transition</a>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="./pdm.html#transition">Transition</a>
                   </li>
                 </ul>
                 <!-- End Submenu -->
@@ -104,129 +91,35 @@
               <!-- End Structure -->
 
 
-              <!-- Phase Gate Process -->
-              <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp"
-                data-animation-out="fadeOut" data-position="left">
-                <a id="homeMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;"
-                  aria-haspopup="true" aria-expanded="false">Phase Gate Process</a>
+              <!-- Structure -->
+              <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp"
+                data-animation-out="fadeOut">
+                <a id="blogMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle " href="javascript:;"
+                  aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Documentation</a>
 
-                <!-- Phase Gate Process - Mega Menu -->
-                <div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu">
-                  <div class="row no-gutters">
-                    <div class="col-lg-6">
-                      <!-- Banner Image -->
-                      <div class="u-header__banner"
-                        style="background-image: url(https://dl.boxcloud.com/api/2.0/internal_files/520812778939/versions/551607052939/representations/jpg_paged_2048x2048/content/1.jpg?access_token=1!b2ZTOq6B0sn003oIUrUTZqqZioU-BbIgX1lrKSCHjd_Cj-bFJQyC6PSZShMPJ0o7q7w-PcRKLqBtqS_fht_TiVkbGWzL7b6JCfz9mesUlft6syYQmF_YV3fk7l0ZXgbJu_p9dWSk6Pg7S_7dg6L0zbafm2dNnt_HTe2LK-QVwnfFCz7tIHCaw2Y-zASA9kW7YZyUMBu-giMjanXt9CENSmzx2svSQYxAnJtW9sC7V2RvTE-cGmr7KUmHX1d00HHJBkGS_9CR0_GcVsElef3e9us4tzk1vF6wXOVO0yN5QPRrjKWpW-82iFZ1tC4iXPcKIXwGTSbc0Asb4e3p0vGXTyjACaM_Qwhb_wJbMzUxNttm9_oPOdgmQdZpNA97k-gv7xJIruxZN7K41JiaVo6xcvUKHQJIDShNaX4fQSpyvUUcV8e5S-umgI0W4Rj1NIn3fLC5CGUI2NYWa5mvXafgGen8hUFWoleHs1zgOKkReguYq8mwANP0mekGzG3NXjy0dv0z9kstiqRBeoGaOcf9v_oK1EBVLtj06GCD3mOF0IKOaR8aoi1FOmT2mUTIZYVtAuMzpUS1nAkMXt9WtVF6XC8VeAoNi_bUL54k99czlXyYpMTHOSjaZKCoGOqjrjjNtvXb&shared_link=https%3A%2F%2Fequinix.app.box.com%2Fs%2Fma2y2q3lu4fscz2mqpk3mz6uz8i07c63&box_client_name=box-content-preview&box_client_version=2.26.1);">
-                        <div class="u-header__banner-content">
-                          <div class="mb-4">
-                            <span class="u-header__banner-title">Project Delivery Model</span>
-                            <p class="u-header__banner-text">Developed by taking input from design and construction
-                              management in all three global regions, defining and agreeing all of the common and
-                              required elements and fundamental requirements.</p>
-                          </div>
-                          <a class="btn btn-primary btn-sm transition-3d-hover" href="#">Learn More <span
-                              class="fas fa-angle-right ml-2"></span></a>
-                        </div>
-                      </div>
-                      <!-- End Banner Image -->
-                    </div>
-
-                    <div class="col-lg-6">
-                      <div class="row u-header__mega-menu-wrapper">
-                        <div class="col-sm-6 mb-3 mb-sm-0">
-                          <span class="u-header__sub-menu-title">Classic</span>
-                          <ul class="u-header__sub-menu-nav-group mb-3">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="index.html">Classic Agency</a>
-                            </li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="classic-business.html">Classic
-                                Business</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="classic-marketing.html">Classic
-                                Marketing</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="classic-consulting.html">Classic
-                                Consulting</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="classic-start-up.html">Classic
-                                Start-up</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="classic-studio.html">Classic
-                                Studio <span class="badge badge-success badge-pill ml-1">New</span></a></li>
-                          </ul>
-
-                          <span class="u-header__sub-menu-title">Corporate</span>
-                          <ul class="u-header__sub-menu-nav-group mb-3">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="corporate-agency.html">Corporate
-                                Agency</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="corporate-start-up.html">Corporate
-                                Start-Up</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="corporate-business.html">Corporate
-                                Business</a></li>
-                          </ul>
-
-                          <span class="u-header__sub-menu-title">Portfolio</span>
-                          <ul class="u-header__sub-menu-nav-group">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="portfolio-agency.html">Portfolio
-                                Agency</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="portfolio-profile.html">Portfolio
-                                Profile</a></li>
-                          </ul>
-                        </div>
-
-                        <div class="col-sm-6">
-                          <span class="u-header__sub-menu-title">App</span>
-                          <ul class="u-header__sub-menu-nav-group mb-3">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="app-ui-kit.html">App UI kit</a>
-                            </li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="app-saas.html">App SaaS</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="app-workflow.html">App
-                                Workflow</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="app-payment.html">App Payment</a>
-                            </li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="app-software.html">App
-                                Software</a></li>
-                          </ul>
-
-                          <span class="u-header__sub-menu-title">Onepages</span>
-                          <ul class="u-header__sub-menu-nav-group mb-3">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="onepage-corporate.html">Corporate
-                                <span class="badge badge-success badge-pill ml-1">New</span></a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link"
-                                href="onepage-creative.html">Creative</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="onepage-saas.html">SaaS</a></li>
-                          </ul>
-
-                          <span class="u-header__sub-menu-title">Blog</span>
-                          <ul class="u-header__sub-menu-nav-group">
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="blog-agency.html">Blog Agency</a>
-                            </li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="blog-start-up.html">Blog
-                                Start-Up</a></li>
-                            <li><a class="nav-link u-header__sub-menu-nav-link" href="blog-business.html">Blog
-                                Business</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Phase Gate Process - Mega Menu -->
+                <!-- Structure - Submenu -->
+                <ul class="js-scroll-nav hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer"
+                  aria-labelledby="blogMegaMenu" style="min-width:300px">
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="">Project
+                      Organization Structure</a>
+                  </li>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="">Change
+                      Management</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
               </li>
-              <!-- End Phase Gate Process -->
+              <!-- End Structure -->
             </ul>
           </div>
           <!-- End Navigation -->
-
-          <!-- Last Item -->
-          <div class="u-header-center-aligned-nav__col u-header-center-aligned-nav__col-last-item">
-            <a class="btn btn-sm btn-primary transition-3d-hover"
-              href="https://themes.getbootstrap.com/product/front-multipurpose-responsive-template/" target="_blank">
-              Download PPT
-            </a>
-          </div>
-          <!-- End Last Item -->
         </nav>
         <!-- End Nav -->
       </div>
     </div>
   </header>
   <!-- ========== END HEADER ========== -->
+
 
   <!-- ========== MAIN ========== -->
   <main id="content" role="main">
@@ -238,7 +131,7 @@
         data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
         data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
         data-arrow-right-classes="fas fa-arrow-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
-        data-numbered-pagination="#slickPaging" data-nav-for="#heroNavThumb">
+        data-numbered-pagination="#slickPaging">
         <div class="js-slide">
           <!-- Slide #1 -->
           <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
@@ -251,7 +144,7 @@
                   </span>
                   <h2 class="text-white display-4 font-size-md-down-5 mb-0" data-scs-animation-in="fadeInUp"
                     data-scs-animation-delay="200">
-                    <span class="font-weight-semi-bold">Easy</span> business with Front template
+                    Unified approach to deliver all <span class="font-weight-semi-bold">CapEx Expansion</span> projects
                   </h2>
                 </div>
               </div>
@@ -262,7 +155,7 @@
         <div class="js-slide">
           <!-- Slide #2 -->
           <div class="d-lg-flex align-items-lg-center u-hero-v1__main"
-          style="background-image: url(https://lh3.googleusercontent.com/DoNf24AIgihdBZlwdb4aIdTmJy0wBoOGk9rDFhuMQqioobT9iay95-h2mvjRAausw3pp59O7bST82yZ0x-M5MwROLjNr9WCRLLoFxFStsAuOF7X3VeuMg60VSxAr_d48GrY2tJ6TTTXHZbGTQqRAnad8q-DXmTrNUI7etai_pCHDKkg7RvIUmg7xWLlZP8cVNzwPzHNWAeFDbgKhTgLjnaY_2ezN4Ws4wBhm2LroRnfEXiogJUhMMnKTqNQAnatXiASOmygXUcxZh8JxCE2qkoTD3Dpb61jJmKqbIQRsHlU1uH4EOtjvvalNZYDYmFBR8UlOT_jG_YmGthxPsg6pprOga4GybNiul4fv4vUPnjsPIrD-wk5EY_6sZZE4HOJ42WkXdycCVb54b_frJbbtBWM-JC3UMnD3TOATU_70oA9k0sJJJr5JWG_RkqCngYyu-G5S29Rpvx_eb_9THSTjvY7a2djqb1TYknND3DjY3usbKdfGXR4WekYhrYG4IhBiZcDjin0l9hKWsrE8SoJHKG4HFBTmAzyndXH6Vszq-CV5Hs0ZNCSp_fqA6ACiTbXT4j3gBMHKV_gboMRKGzFS2JHXVOcIAoigHaq81s9HrXXLBKOaIjKgc0zZzxCUGxqHuVXXAXiG0e7yb7_IgXvj_XP8Jc6qA7YfuX25rRzxQic8_vWwgBaRpw=w2412-h1736-no);">
+            style="background-image: url(https://lh3.googleusercontent.com/DoNf24AIgihdBZlwdb4aIdTmJy0wBoOGk9rDFhuMQqioobT9iay95-h2mvjRAausw3pp59O7bST82yZ0x-M5MwROLjNr9WCRLLoFxFStsAuOF7X3VeuMg60VSxAr_d48GrY2tJ6TTTXHZbGTQqRAnad8q-DXmTrNUI7etai_pCHDKkg7RvIUmg7xWLlZP8cVNzwPzHNWAeFDbgKhTgLjnaY_2ezN4Ws4wBhm2LroRnfEXiogJUhMMnKTqNQAnatXiASOmygXUcxZh8JxCE2qkoTD3Dpb61jJmKqbIQRsHlU1uH4EOtjvvalNZYDYmFBR8UlOT_jG_YmGthxPsg6pprOga4GybNiul4fv4vUPnjsPIrD-wk5EY_6sZZE4HOJ42WkXdycCVb54b_frJbbtBWM-JC3UMnD3TOATU_70oA9k0sJJJr5JWG_RkqCngYyu-G5S29Rpvx_eb_9THSTjvY7a2djqb1TYknND3DjY3usbKdfGXR4WekYhrYG4IhBiZcDjin0l9hKWsrE8SoJHKG4HFBTmAzyndXH6Vszq-CV5Hs0ZNCSp_fqA6ACiTbXT4j3gBMHKV_gboMRKGzFS2JHXVOcIAoigHaq81s9HrXXLBKOaIjKgc0zZzxCUGxqHuVXXAXiG0e7yb7_IgXvj_XP8Jc6qA7YfuX25rRzxQic8_vWwgBaRpw=w2412-h1736-no);">
             <div class="container space-3 space-top-md-5 space-top-lg-3">
               <div class="row">
                 <div class="col-md-8 col-lg-6 position-relative">
@@ -288,64 +181,7 @@
       </div>
       <!-- End Slick Paging -->
 
-      <!-- Hero Carousel Secondary -->
-      <div id="heroNavThumb" class="js-slick-carousel u-slick" data-autoplay="true" data-speed="10000"
-        data-is-thumbs="true" data-nav-for="#heroNav">
-        <div class="js-slide">
-          <!-- Slide #2 -->
-          <div class="d-flex align-items-center bg-white u-hero-v1__secondary">
-            <div class="container space-2">
-              <div class="row">
-                <div class="col-lg-4">
-                  <h3 class="h5 text-muted">
-                    <strong class="d-block">01.</strong>
-                    <span class="d-block text-primary">Advanced editing</span>
-                  </h3>
-                  <p class="mb-0">Modify any aspect of your website or pages with Front.</p>
-                </div>
-              </div>
-            </div>
 
-            <div class="w-100 h-100 d-none d-lg-inline-block bg-primary u-hero-v1__last">
-              <div class="u-hero-v1__last-inner">
-                <h3 class="h5 text-white">
-                  <strong class="u-hero-v1__last-next">Next:</strong> Fully responsive
-                </h3>
-                <p class="text-white-70 mb-0">Let visitors to view your content from their choice of device.</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide #2 -->
-        </div>
-
-        <div class="js-slide">
-          <!-- Slide #2 -->
-          <div class="d-flex align-items-center bg-white u-hero-v1__secondary">
-            <div class="container space-2">
-              <div class="row">
-                <div class="col-lg-4">
-                  <h3 class="h5 text-muted">
-                    <strong class="d-block">02.</strong>
-                    <span class="d-block text-danger">Fully responsive</span>
-                  </h3>
-                  <p class="mb-0">Let visitors to view your content from their choice of device.</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="w-100 h-100 d-none d-lg-inline-block bg-danger u-hero-v1__last">
-              <div class="u-hero-v1__last-inner">
-                <h3 class="h5 text-white">
-                  <strong class="u-hero-v1__last-prev">Prev:</strong> Advanced editing
-                </h3>
-                <p class="text-white-70 mb-0">Modify any aspect of your website with Front</p>
-              </div>
-            </div>
-          </div>
-          <!-- End Slide #2 -->
-        </div>
-      </div>
-      <!-- End Hero Carousel Secondary -->
     </div>
     <!-- End Hero v1 Section -->
 
@@ -465,7 +301,8 @@
         <div class="row">
           <div class="col-md-5 d-md-flex align-content-md-center flex-md-wrap height-md-40vh">
             <h3>Principles and Tools</h3>
-            <p>Not intended to replace working level customisation but identifies the minimum deliverables and provides the standard tool-kit to realize the deliverables.
+            <p>Not intended to replace working level customisation but identifies the minimum deliverables and provides
+              the standard tool-kit to realize the deliverables.
             </p>
           </div>
         </div>
