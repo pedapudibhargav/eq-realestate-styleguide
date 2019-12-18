@@ -3,14 +3,14 @@
 
 <head>
     <!-- Title -->
-    <title>Equinix | SPC</title>
+    <title>Classic Business | Front - Responsive Website Template</title>
 
     <!-- Required Meta Tags Always Come First -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://www.equinix.com/application/dist/img/global/favicon.ico">
+    <link rel="shortcut icon" href="../../favicon.ico">
 
     <!-- Google Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -135,8 +135,10 @@
     </header>
     <!-- ========== END HEADER ========== -->
 
+
     <!-- ========== MAIN ========== -->
-    <main id="content" class="pt-10" role="main">
+    <main id="content" role="main">
+        <!-- Hero v1 Section -->
         <div class="js-slick-carousel u-slick"
             data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
             data-arrow-left-classes="fas fa-arrow-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
@@ -146,55 +148,36 @@
                 </div>
             </div>
         </div>
-        <!-- Body Section -->
+        <!-- End Hero v1 Section -->
+
+        <hr class="my-0">
+
+        <!-- About Us Section -->
+        <div class="container space-top-md-3 space-top-lg-2">
+            <div class="w-lg-80 text-center mx-lg-auto">
+                <div class="mb-11">
+                    <h1>Roles and Responsibilities Analysis Matrix (Final)</h1>
+                    <p class="lead font-weight-normal">This global project delivery model (PDM) has been developed by
+                        taking input
+                        from design and construction management in all three global regions, defining and agreeing all
+                        of the common
+                        and required elements and fundamental requirements. </p>
+
+                    <a class="btn btn-primary"
+                        href="https://drive.google.com/file/d/1v8t3z167INNsTAYq_8Dgf4W9e3aJ3V2t/view?usp=sharing"
+                        target="_blank">Download Document</a>
+
+                </div>
+            </div>
+        </div>
+        <!-- End About Us Section -->
+        <!-- <div class="bg-light"> -->
         <div class="container">
-            <!-- Title -->
-            <div class="row">
-                <div class="col-12 text-center my-4 my-md-6">
-                    <small class="text-secondary text-uppercase font-weight-medium mb-2">The PDM is sparated into four
-                        major stages</small>
-                    <h2 class="h3 font-weight-medium">Project Organization Structure – Global</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 mb-6 text-center">
-                        <img class="w-md-75" src="./images/org-chart-1.png" alt="Card image cap">
-                    </div>
-                </div>
-            </div>
-
-            <!-- End Title -->
+            <iframe class="mb-4" style="width:100%; height: 900px;"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbJ2snGrRWdlm2QmR7-Bizz0BPtBOvMPErvhB3cfJJhgyqiu55AyhZ9gfRnyGpAA/pubhtml?widget=true&amp;headers=false"></iframe>
         </div>
+        <!-- </div> -->
 
-        <div class="bg-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 py-8">
-                        <ol>
-                            <li>
-                                <p>CPM is accountable for overall delivery of the project. </p>
-                            </li>
-                            <li>
-                                <p>Design Manager responsible for all design actions and deliverables.</p>
-                            </li>
-                            <li>
-                                <p>Engineering Consultants report to both CPM and DM. Formal day-to-day engagement is
-                                    with
-                                    DM and design team.</p>
-                            </li>
-                            <li>
-                                <p>General/Main Contractor works solely at the direction of the CPM and directly manages
-                                    subcontractors.</p>
-                            </li>
-                            <li>
-                                <p>Site Operations works in an advisory and approvals capacity as the client/end user.
-                                </p>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Body Section -->
     </main>
     <!-- ========== END MAIN ========== -->
 
@@ -347,7 +330,6 @@
     <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
     <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
-
     <!-- JS Implementing Plugins -->
     <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
     <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
@@ -356,9 +338,59 @@
     <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="../../assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
 
-    <!-- JS Implementing Plugins -->
-    <script src="../../dist/assets/js/theme.min.js"></script>
+    <!-- JS Front -->
+    <script src="../../assets/js/hs.core.js"></script>
+    <script src="../../assets/js/components/hs.header.js"></script>
+    <script src="../../assets/js/components/hs.unfold.js"></script>
+    <script src="../../assets/js/components/hs.fancybox.js"></script>
+    <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+    <script src="../../assets/js/components/hs.validation.js"></script>
+    <script src="../../assets/js/components/hs.focus-state.js"></script>
+    <script src="../../assets/js/components/hs.cubeportfolio.js"></script>
+    <script src="../../assets/js/components/hs.svg-injector.js"></script>
+    <script src="../../assets/js/components/hs.go-to.js"></script>
+
     <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 767.98,
+                hideTimeOut: 0
+            });
+
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
+
+        $(document).on('ready', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
+
+            // initialization of unfold component
+            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+
+            // initialization of fancybox
+            $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
+            // initialization of slick carousel
+            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+            // initialization of form validation
+            $.HSCore.components.HSValidation.init('.js-validate');
+
+            // initialization of forms
+            $.HSCore.components.HSFocusState.init();
+
+            // initialization of cubeportfolio
+            $.HSCore.components.HSCubeportfolio.init('.cbp');
+
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+    </script>
 </body>
 
 </html>
